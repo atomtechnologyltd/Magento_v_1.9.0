@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>paynetz_payment</name>
+    <version>2.0.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Atom Paynetz</summary>
+    <description>Atom Paynetz</description>
+    <notes>Atom Paynetz</notes>
+    <authors><author><name>Atom</name><user>Atom</user><email>helpdesk@atomtech.in</email></author></authors>
+    <date>2014-11-10</date>
+    <time>13:16:44</time>
+    <contents><target name="magecommunity"><dir name="Paynetz"><dir name="Pay"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Currencyoptions.php" hash="81cad66908abf87b0a3b964f553e1ba6"/><file name="Languageoptions.php" hash="eb54f4e7b634c34bf43b968ee2c65502"/><file name="Shaoptions.php" hash="93bf9f8c7b9fe673a0a99dc7c754cfc4"/></dir></dir></dir></dir></dir><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Fieldset"><file name="Group.php" hash="989b8f7000355d1b292f9602f88d13ec"/><file name="Payment.php" hash="84449994dc6de5994f9f31593b265a69"/></dir></dir></dir></dir><file name="Note.php" hash="0cd7c2a0de0be839d6ebf1a6ef27d69f"/></dir><dir name="Helper"><file name="Data.php" hash="91f855ecd3e443d5056dd2a6f585bc88"/></dir><dir name="Model"><file name="Pay.php" hash="eb9edbfa22868d1cb287e931cde50364"/><dir name="Service"><file name="Quote.php" hash="186fc25c926f1b8430eb7548c691466c"/></dir></dir><dir name="controllers"><file name="PaymentController.php" hash="acda3caf60582961d3576729d9d7a7ae"/></dir><dir name="etc"><file name="config.xml" hash="e707e6ccc3d6e5ee45bb8396fb6ced93"/><file name="system.xml" hash="8ce18567d5c5e591013bc350a61eac9e"/></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Paynetz_Pay.xml" hash="93b5f5727fc62a7074cab03485cc8b01"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.3.0</min><max>6.0.0</max></php><extension><name>curl</name><min></min><max></max></extension></required></dependencies>
+</package>
